@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="spring-boot" parallel="tests" thread-count="2">
+   <!-- <test name="google-test-1">
+        <classes>
+            <class name="com.autoasi.springselenium.tests.googleTest.Google1Test" />
+        </classes>
+    </test>
+    <test name="google-test-2">
+        <classes>
+            <class name="com.autoasi.springselenium.tests.googleTest.Google2Test" />
+        </classes>
+    </test>
+    <test name="google-test-3">
+        <classes>
+            <class name="com.autoasi.springselenium.tests.googleTest.Google1Test" />
+        </classes>
+    </test>
+    <test name="google-test-4">
+        <classes>
+            <class name="com.autoasi.springselenium.tests.googleTest.Google2Test" />
+        </classes>
+    </test>-->
+    <test name="visa-test-5">
+        <parameter name="dobFrom" value="2000-01-01"/>
+        <parameter name="dobTo" value="2005-01-01"/>
+        <classes>
+            <class name="com.autoasi.springselenium.tests.visaTest.CustomerVisaTest" />
+        </classes>
+    </test>
+</suite>
